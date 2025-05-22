@@ -17,7 +17,9 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
+    domains: [
+      'www.refoindonesia.com', 
+    ],
   },
 };
-
 export default nextConfig;

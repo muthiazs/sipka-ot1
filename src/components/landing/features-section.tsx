@@ -21,15 +21,9 @@ const features = [
     dataAiHint: 'assessment report'
   },
   {
-    icon: Leaf, // Pertanian
-    title: 'Modul Pertanian Edukatif',
-    description: 'Kenalkan anak pada dunia pertanian melalui kegiatan menanam dan merawat tanaman yang menyenangkan.',
-    dataAiHint: 'gardening children'
-  },
-  {
     icon: MountainSnow, // Peternakan/Alam luas
-    title: 'Eksplorasi Alam & Satwa',
-    description: 'Ajak anak belajar tentang berbagai jenis satwa dan ekosistem alam melalui konten interaktif.',
+    title: 'Pengenalan Livestock Daily Living',
+    description: 'Ajak anak belajar tentang berbagai jenis kegiatan livestock daily living melalui konten interaktif.',
     dataAiHint: 'nature exploration'
   },
   {
