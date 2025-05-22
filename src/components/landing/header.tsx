@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Leaf } from 'lucide-react';
-import { AppName } from './logo';
+import { Menu } from 'lucide-react';
+import { Logo, AppName } from './logo'; // Changed Leaf to Logo
 import { useIsMobile } from '@/hooks/use-mobile';
 import { useEffect, useState } from 'react';
 
@@ -27,7 +27,7 @@ export function Header() {
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex h-16 max-w-screen-2xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <Link href="/" className="flex items-center space-x-2">
-            <Leaf className="h-6 w-6 text-primary" />
+            <Logo className="h-6 w-6 text-primary" /> {/* Changed Leaf to Logo */}
             <AppName />
           </Link>
           {/* Placeholder for buttons to avoid layout shift */}
@@ -44,7 +44,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 max-w-screen-2xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center space-x-2">
-          <Leaf className="h-6 w-6 text-primary" />
+          <Logo className="h-6 w-6 text-primary" /> {/* Changed Leaf to Logo */}
           <AppName />
         </Link>
 

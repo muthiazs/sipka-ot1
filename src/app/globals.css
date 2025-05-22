@@ -4,95 +4,95 @@
 
 @layer base {
   :root {
-    --background: 60 56% 92%; /* #F5F5DC - Beige */
-    --foreground: 20 35% 18%; /* #4A3B31 - Darker brown for text */
+    --background: 45 100% 95%; /* #FFFAE6 - Light Yellow */
+    --foreground: 30 60% 25%; /* #66421A - Dark Brown */
 
-    --card: 60 60% 97%; /* #FCFBEF - Lighter Beige */
-    --card-foreground: 20 35% 18%; /* Same as foreground */
+    --card: 50 100% 97%; /* #FFFBEF - Lighter Yellow */
+    --card-foreground: 30 60% 25%; /* #66421A - Dark Brown */
 
-    --popover: 60 60% 97%; /* Lighter Beige */
-    --popover-foreground: 20 35% 18%; /* Same as foreground */
+    --popover: 50 100% 97%; /* #FFFBEF - Lighter Yellow */
+    --popover-foreground: 30 60% 25%; /* #66421A - Dark Brown */
 
-    --primary: 100 13% 55%; /* #7E9871 - Soft Earthy Green */
-    --primary-foreground: 60 100% 98%; /* #FEFDFB - Very Light Beige/Off-white */
+    --primary: 210 80% 55%; /* #59A4E9 - Bright Blue */
+    --primary-foreground: 0 0% 100%; /* #FFFFFF - White */
 
-    --secondary: 35 29% 51%; /* #A68B60 - Earthy Brown */
-    --secondary-foreground: 60 100% 98%; /* Very Light Beige/Off-white */
+    --secondary: 130 60% 50%; /* #33CC4D - Cheerful Green */
+    --secondary-foreground: 0 0% 100%; /* #FFFFFF - White */
 
-    --muted: 60 40% 88%; /* #EAE8D9 - Muted Beige */
-    --muted-foreground: 20 25% 35%; /* #6F5F56 - Muted Brown Text */
+    --muted: 45 80% 90%; /* #FDEEB3 - Muted Yellow */
+    --muted-foreground: 30 50% 40%; /* #996E4D - Muted Brown Text */
 
-    --accent: 208 28% 67%; /* #90AFC5 - Soft Sky Blue */
-    --accent-foreground: 0 0% 100%; /* #FFFFFF - White */
+    --accent: 50 90% 55%; /* #F7D84C - Sunny Yellow */
+    --accent-foreground: 30 60% 20%; /* #523514 - Dark Brown */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%; /* Original red for destructive actions */
+    --destructive-foreground: 0 0% 98%; /* Original light foreground for destructive */
 
-    --border: 60 30% 82%; /* #DAD6C5 - Border Beige */
-    --input: 60 30% 85%; /* #DEDACF - Input Beige */
-    --ring: 100 13% 55%; /* Primary color for focus rings */
+    --border: 40 70% 85%; /* #F5E4C3 - Light Yellowish Brown */
+    --input: 40 70% 88%; /* #F7E9D0 - Light Yellowish Brown */
+    --ring: 210 80% 55%; /* #59A4E9 - Bright Blue (Primary) for focus rings */
 
     --radius: 0.5rem;
     
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
+    --chart-1: 210 80% 60%; /* Blue variant */
+    --chart-2: 130 60% 55%; /* Green variant */
+    --chart-3: 50 90% 60%;  /* Yellow variant */
+    --chart-4: 30 50% 50%;   /* Brown variant */
+    --chart-5: 200 70% 65%; /* Another Blue/Teal variant */
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 0 0% 100%; /* White */
+    --sidebar-foreground: 30 60% 25%; /* Dark Brown */
+    --sidebar-primary: 210 80% 55%; /* Bright Blue */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 45 100% 92%; /* Very Light Yellow */
+    --sidebar-accent-foreground: 30 60% 25%; /* Dark Brown */
+    --sidebar-border: 40 70% 85%; /* Light Yellowish Brown */
+    --sidebar-ring: 210 80% 55%; /* Bright Blue */
   }
 
   .dark {
-    --background: 20 15% 10%; /* Darker brown for dark mode background */
-    --foreground: 60 30% 85%; /* Light beige for dark mode text */
+    --background: 220 30% 15%; /* #1A2033 - Dark Blue-ish Grey */
+    --foreground: 45 80% 85%; /* #FBE8B3 - Light Yellow */
 
-    --card: 20 15% 15%; 
-    --card-foreground: 60 30% 85%;
+    --card: 220 30% 20%; /* #222A44 */
+    --card-foreground: 45 80% 85%; /* #FBE8B3 */
 
-    --popover: 20 15% 15%;
-    --popover-foreground: 60 30% 85%;
+    --popover: 220 30% 20%; /* #222A44 */
+    --popover-foreground: 45 80% 85%; /* #FBE8B3 */
 
-    --primary: 100 13% 55%; /* #7E9871 */
-    --primary-foreground: 20 15% 10%; 
+    --primary: 210 70% 60%; /* #6AAEE9 - Lighter Bright Blue */
+    --primary-foreground: 220 30% 10%; /* #111522 - Very Dark Blue */
 
-    --secondary: 35 29% 51%; /* #A68B60 */
-    --secondary-foreground: 20 15% 10%;
+    --secondary: 130 50% 55%; /* #5CC26F - Lighter Green */
+    --secondary-foreground: 220 30% 10%; /* #111522 - Very Dark Blue */
 
-    --muted: 20 15% 20%;
-    --muted-foreground: 60 30% 70%;
+    --muted: 220 30% 25%; /* #2B3554 - Muted Dark Blue */
+    --muted-foreground: 45 60% 70%; /* #F7E092 - Muted Light Yellow */
 
-    --accent: 208 28% 67%; /* #90AFC5 */
-    --accent-foreground: 20 15% 10%;
+    --accent: 50 80% 60%; /* #FADD6F - Lighter Sunny Yellow */
+    --accent-foreground: 220 30% 10%; /* #111522 - Very Dark Blue */
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 0 70% 50%; /* Dark mode destructive red */
     --destructive-foreground: 0 0% 98%;
 
-    --border: 20 15% 25%;
-    --input: 20 15% 25%;
-    --ring: 100 13% 45%; /* Slightly darker green for dark ring */
+    --border: 220 30% 30%; /* #333F66 - Darker Blue Border */
+    --input: 220 30% 30%; /* #333F66 */
+    --ring: 210 70% 60%; /* #6AAEE9 - Lighter Bright Blue for focus rings */
     
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    --chart-1: 210 70% 65%;
+    --chart-2: 130 50% 60%;
+    --chart-3: 50 80% 65%;
+    --chart-4: 30 40% 55%;
+    --chart-5: 200 60% 70%;
 
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 220 30% 12%; /* Darker base for sidebar */
+    --sidebar-foreground: 45 80% 85%; /* Light Yellow Text */
+    --sidebar-primary: 210 70% 60%; /* Lighter Bright Blue */
+    --sidebar-primary-foreground: 220 30% 5%; /* Very Dark Text */
+    --sidebar-accent: 220 30% 18%; /* Slightly Lighter Dark Blue */
+    --sidebar-accent-foreground: 45 80% 85%; /* Light Yellow Text */
+    --sidebar-border: 220 30% 25%;
+    --sidebar-ring: 210 70% 60%;
   }
 }
 
@@ -101,6 +101,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-sans; /* Ensure Geist Sans is applied via font-sans */
+    @apply bg-background text-foreground font-sans;
   }
 }

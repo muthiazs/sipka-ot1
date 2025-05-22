@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { AppName } from './logo';
-import { Leaf } from 'lucide-react';
+import { Logo, AppName } from './logo'; // Changed Leaf to Logo
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,7 +7,7 @@ export function Footer() {
     <footer className="w-full py-8 border-t border-border bg-background">
       <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center space-x-2 mb-4 md:mb-0">
-          <Leaf className="h-5 w-5 text-primary" />
+          <Logo className="h-5 w-5 text-primary" /> {/* Changed Leaf to Logo */}
           <AppName />
         </div>
         <div className="text-sm text-muted-foreground text-center md:text-right">

@@ -31,11 +31,11 @@ export function HeroSection() {
         <div className="flex justify-center">
           <Image
             src="https://placehold.co/800x600.png"
-            alt="Ilustrasi anak bermain di alam"
+            alt="Ilustrasi anak bermain di alam dengan ceria"
             width={800}
             height={600}
             className="rounded-xl shadow-2xl object-cover"
-            data-ai-hint="children nature therapy"
+            data-ai-hint="kids nature"
             priority
           />
         </div>
